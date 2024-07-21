@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="icon" href="../img/icono.png" type="img/png" />
+    <script
+      src="https://kit.fontawesome.com/2636c4339f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--TOP NAVBAR-->
+    <nav class="topnavbar">
+      <a href="index.html" class="logo"
+        ><img
+          src="../img/logotransp1.png"
+          alt="logo"
+          width="100vw"
+          class="logo"
+      /></a>
+      <ul class="nav-menu">
+        <li class="navitem">
+          <i class="fa-regular fa-envelope fa-lg" style="color: #f9f9fa"></i>
+          <a
+            href="mailto:rivadaviaaparts@gmail.com"
+            target="_blank"
+            class="linkitem"
+            >Contacto</a
+          >
+        </li>
+        <li class="navitem">
+          <i class="fa-brands fa-whatsapp fa-lg" style="color: #53a82e">
+            <a
+              href="http://wa.me/2604318454/?text=Hola!quiero reservar"
+              class="linkitem"
+              target="_blank"
+              >Envia un WhatsApp</a
+            >
+          </i>
+        </li>
+      </ul>
+    </nav>
+    <!--HEADER-->
+    <header class="page-contacto">
+      <div>
+        <h1>Atención al cliente</h1>
+        <h3>Comunícate con nosotros, estamos para ayudarte</h3>
+      </div>
+    </header>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <ul class="navprincipal">
+        <li class="navmenu">
+          <a href="../../index.html">INICIO</a>
+        </li>
+        <li class="navmenu">
+          <a href="../views/departamentos.html" target="_blank"
+            >DEPARTAMENTOS</a
+          >
+        </li>
+        <li class="navmenu">
+          <a href="../views/galeria.html" target="_blank">GALERIA</a>
+        </li>
+        <li class="navmenu">
+          <a href="#">CONTACTO</a>
+        </li>
+      </ul>
+    </nav>
+<!--formulario de contacto-->
+  <div class="contacto">
+    <div class="formulario">
+      <h2 class="titulo-form">Escribinos</h2>
+      <h3 class="subtitulo-form">Nos comunicaremos a la brevedad</h3>
+      <form action="" target="_blank" method="post">
+        <label for="nombreyapellido"> Nombre y Apellido </label>
+        <input
+          type="text"
+          name="name"
+          id="nombreyapellido"
+          placeholder="Nombre y Apellido"
+          required
+        />
+        <label for="telefono">Teléfono</label>
+        <input
+          type="number"
+          name="tel"
+          id="telefono"
+          placeholder="Teléfono"
+          required
+        />
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email"
+          required
+        />
+        <label for="fingreso">Fecha ingreso</label>
+        <input type="date" name="datein" id="fingreso" required />
+        <label for="fsalida">Fecha salida</label>
+        <input type="date" name="dateout" id="fsalida" required />
+        <label for="mensaje">Mensaje</label>
+        <input type="text" name="mensaje" id="mensaje" maxlength="300" placeholder="Mensaje" />
+        <br>
+        <input type="submit" value="Enviar" id="enviar"/>
+      </form>
+    </div>
+    <address class="ubicacion">
+      <h2 class="titulo-form2">Contactanos</h2>
+      <h4 class="d-contacto">Teléfono: (260)4318454</h4>
+      <h4 class="d-contacto">Email: rivadaviaaparts@gmail.com</h4>
+      <h4 class="d-contacto">Redes Sociales:</h4>
+      <a href="https://www.facebook.com/rivadaviaaparts" target="_blank" class="redes"
+        >Facebook</a>
+      <a href="https://www.Instagram.com/rivadaviaaparts" target="_blank" class="redes"
+        >Instagram</a>
+      <h2 class="titulo-form2">Cómo llegar</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.895201018178!2d-68.34188552521267!3d-34.60681145765996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96790912fb3fa0cb%3A0x50c828129f99be45!2sRivadavia%20Aparts!5e0!3m2!1ses-419!2sar!4v1720736257621!5m2!1ses-419!2sar"
+        width="350"
+        height="300"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </address>
+  </div>
+    <!--FOOTER-->
+    <img src="public/img/pngwing.com (8).png" alt="footer" id="img-footer" />
+    <footer>
+      <p class="footer">&copy; Valeria Assenza - Potrero Digital 2024</p>
+    </footer>
+  </body>
+</html>
