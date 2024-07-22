@@ -234,8 +234,11 @@ aside {
   }
 }
 @media (max-width: 400px) {
-  .principal {
+ .textImportant{
     padding: 0 10px 50px 10px;
+  }
+  .important{
+    font-size: 1.7rem;
   }
 }
 /*stilos contenedor opiniones google*/
