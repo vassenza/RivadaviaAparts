@@ -147,7 +147,7 @@ h3 {
     color: black;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 425px) {
   .navmenu a{
     font-size: 14px;
     padding: 5px 10px;
@@ -233,7 +233,7 @@ aside {
     text-align: center;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 425px) {
  .textImportant{
     padding: 0 10px 50px 10px;
   }
