@@ -686,7 +686,7 @@ iframe{
     margin: 40px;
   }
 }
-@media (max-width:400px) {
+@media (max-width:425px) {
   .page-aparts{
     padding: 30px;
   }
@@ -707,9 +707,10 @@ iframe{
   .servicios{
     width: 80%;  
     padding: 10px;
+    margin: 30px 0;
   } 
   iframe{
-    width: auto;
+    width: 275px;
   }
 }
 /*estilos pagina galeria*/
@@ -735,4 +736,9 @@ iframe{
 .img-galeria:hover{
   width: 350px;
   transition: 0.5s;
+}
+@media (max-width:425px){
+  main{
+    padding: 50px 30px;
+  }
 }
