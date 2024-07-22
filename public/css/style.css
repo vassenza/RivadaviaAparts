@@ -233,6 +233,12 @@ aside {
     text-align: center;
   }
 }
+@media (max-width: 400px) {
+  .principal {
+    padding: 0 10px 50px 10px;
+  }
+}
+/*stilos contenedor opiniones google*/
 .elementogoogle-h4{
   font-size: 14px;
   font-weight: 400;
@@ -242,7 +248,6 @@ aside {
   font-family: "Didact Gothic", sans-serif;
   font-weight: 600;
 }
-/*stilos contenedor opiniones google*/
 #contenedor{
   display: flex;
   flex-direction: row;
